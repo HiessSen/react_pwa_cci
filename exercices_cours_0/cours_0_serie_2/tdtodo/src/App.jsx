@@ -1,9 +1,9 @@
-import './App.css'
-import Header from './components/Header'
-import { useState, useEffect } from 'react'
-import Form from './components/Form'
-import List from './components/List'
-import Footer from './components/Footer'
+import './App.css';
+import Header from './components/Header';
+import { useState, useEffect } from 'react';
+import Form from './components/Form';
+import List from './components/List';
+import Footer from './components/Footer';
 function App() {
     const [todos, setTodos] = useState(() => {
         const savedTodos = localStorage.getItem('todos');
